@@ -25,7 +25,6 @@ export default function ContactPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 1500));
     setIsSubmitting(false);
     setIsSuccess(true);
@@ -56,7 +55,7 @@ export default function ContactPage() {
         <section className="bg-gradient-to-br from-primary/10 via-white to-secondary/10 py-20">
           <div className="container px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl">
-              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-6">Contact Us</h1>
+              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-6">Contact HVB Solutions</h1>
               <p className="text-lg text-muted-foreground">
                 Get in touch with our expert team. We're here to help with all your accounting and auditing needs.
               </p>
@@ -70,7 +69,7 @@ export default function ContactPage() {
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Contact Form */}
               <div>
-                <h2 className="text-2xl font-bold mb-6">Send us a Message</h2>
+                <h2 className="text-2xl font-bold mb-6">Schedule a Free Consultation</h2>
                 {isSuccess && (
                   <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center gap-3 text-green-800">
                     <CheckCircle2 className="h-5 w-5" />
@@ -214,8 +213,8 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <div className="font-medium">Email</div>
-                        <a href="mailto:info@accountsaudit.com" className="text-sm text-primary hover:underline">
-                          info@accountsaudit.com
+                        <a href="mailto:info@hvb-solutions.com" className="text-sm text-primary hover:underline">
+                          info@hvb-solutions.com
                         </a>
                         <div className="text-xs text-muted-foreground mt-1">We respond within 24 hours</div>
                       </div>
