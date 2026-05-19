@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { useState, useEffect } from "react";
 import { Menu, X, Phone, Home, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -50,14 +49,9 @@ export function Navigation() {
       <div className="container flex h-16 sm:h-20 items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <Image
-              src="/logo.png"
-              alt="HVB Solutions"
-              width={80}
-              height={80}
-              className="object-contain"
-              priority
-            />
+          <div className="text-white font-bold text-xl sm:text-2xl">
+            HVB Solutions
+          </div>
         </Link>
 
         {/* Desktop Navigation */}
@@ -126,14 +120,8 @@ export function Navigation() {
           </SheetTrigger>
           <SheetContent side="right" className="w-[280px] sm:w-[320px] max-w-[85vw]">
             <SheetHeader>
-              <SheetTitle className="flex items-center text-navy-800 text-base sm:text-lg">
-                <Image
-                    src="/logo.png"
-                    alt="HVB Solutions"
-                    width={80}
-                    height={80}
-                    className="object-contain"
-                  />
+              <SheetTitle className="flex items-center text-navy-800 text-base sm:text-lg font-bold">
+                HVB Solutions
               </SheetTitle>
             </SheetHeader>
             <nav className="mt-4 sm:mt-8 flex flex-col gap-2 sm:gap-3">
