@@ -56,19 +56,7 @@ export default function Home() {
           <div className="container px-4 sm:px-6 lg:px-8 relative z-20">
             <div className="min-h-[90vh] flex flex-col lg:flex-row items-center justify-center gap-12 py-12 lg:py-20">
               {/* Left Content */}
-              <div className="flex-1 space-y-6 lg:space-y-8 text-center lg:text-left order-2 lg:order-1">
-                {/* Logo Badge */}
-                <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-full px-4 sm:px-6 py-2 sm:py-3 border border-white/20">
-                  <div className="relative h-8 w-8">
-                    <Image
-                      src="/logo.png"
-                      alt="HVB Solutions"
-                      fill
-                      className="object-contain"
-                    />
-                  </div>
-                  <span className="text-white font-medium text-xs sm:text-sm">HVB Solutions</span>
-                </div>
+              <div className="flex-1 space-y-6 lg:space-y-8 text-center lg:text-left order-2 lg:order-1">        
 
                 {/* Main Headline */}
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
@@ -114,14 +102,6 @@ export default function Home() {
                 <Card className="bg-white/15 backdrop-blur-xl border-white/30 shadow-2xl w-full max-w-md">
                   <CardHeader className="border-b border-white/20 pb-4 sm:pb-6">
                     <div className="flex items-center gap-3 mb-2">
-                      <div className="relative h-10 w-10">
-                        <Image
-                          src="/logo.png"
-                          alt="HVB Solutions"
-                          fill
-                          className="object-contain"
-                        />
-                      </div>
                       <CardTitle className="text-xl sm:text-2xl text-white">Trusted Expertise</CardTitle>
                     </div>
                     <CardDescription className="text-gray-200 text-sm sm:text-base">
@@ -268,7 +248,7 @@ export default function Home() {
             <div className="absolute top-10 right-10 w-72 h-72 bg-blue-500/5 rounded-full blur-3xl"></div>
             <div className="absolute bottom-10 left-10 w-80 h-80 bg-indigo-500/5 rounded-full blur-3xl"></div>
           </div>
-          <div className="container px-4 sm:px-6 lg:px-8 relative z-20 text-center">
+          <div className="container px-4 sm:px-6 lg:px-8 relative z-20 flex flex-col items-center text-center">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Finances?</h2>
             <p className="text-base sm:text-lg md:text-xl text-gray-200 max-w-2xl mx-auto mb-8 sm:mb-10">
               Schedule a free consultation with our experts and discover how we can help your business grow
