@@ -13,7 +13,7 @@ export default function TermsPage() {
             <div className="max-w-3xl">
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-6">Terms & Conditions</h1>
               <p className="text-lg text-muted-foreground">
-                Please read these terms carefully before using HVB Solutions' services.
+                Please read these terms carefully before using HVB Solutions&apos; services.
               </p>
             </div>
           </div>
@@ -29,7 +29,7 @@ export default function TermsPage() {
 
               <h2 className="text-2xl font-bold mt-8 mb-4">1. Acceptance of Terms</h2>
               <p>
-                By accessing or using HVB Solutions' website and services, you agree to be bound by these Terms & Conditions. If you do not agree to these terms, please do not use our services.
+                By accessing or using HVB Solutions&apos; website and services, you agree to be bound by these Terms & Conditions. If you do not agree to these terms, please do not use our services.
               </p>
 
               <h2 className="text-2xl font-bold mt-8 mb-4">2. Use of Website Content</h2>

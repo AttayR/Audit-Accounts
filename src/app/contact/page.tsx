@@ -139,7 +139,7 @@ export default function ContactPage() {
             <div className="max-w-3xl">
               <h1 className="text-4xl font-bold tracking-tight sm:text-5xl mb-6">Contact HVB Solutions</h1>
               <p className="text-lg text-muted-foreground">
-                Get in touch with our expert team. We're here to help with all your accounting and auditing needs.
+                Get in touch with our expert team. We&apos;re here to help with all your accounting and auditing needs.
               </p>
             </div>
           </div>

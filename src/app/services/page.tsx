@@ -1,16 +1,24 @@
 import Link from "next/link";
-import { ArrowRight, CheckCircle2 } from "lucide-react";
+import {
+  ArrowRight,
+  Briefcase,
+  CheckCircle2,
+  PieChart,
+  ShieldCheck,
+  TrendingUp,
+  type LucideIcon,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { services } from "@/data/services";
 
-const serviceIcons: Record<string, any> = {
-  ShieldCheck: require("lucide-react").ShieldCheck,
-  TrendingUp: require("lucide-react").TrendingUp,
-  PieChart: require("lucide-react").PieChart,
-  Briefcase: require("lucide-react").Briefcase,
+const serviceIcons: Record<string, LucideIcon> = {
+  ShieldCheck,
+  TrendingUp,
+  PieChart,
+  Briefcase,
 };
 
 export default function ServicesPage() {

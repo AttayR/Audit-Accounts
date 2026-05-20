@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
-import { testimonials, stats } from "@/data/testimonials";
+import { stats } from "@/data/testimonials";
 
 export default function AboutPage() {
   return (
@@ -48,10 +48,10 @@ export default function AboutPage() {
                   HVB Solutions was founded with a simple mission: to provide businesses of all sizes with the same level of financial expertise typically reserved for large corporations. Our journey began with a commitment to excellence and a passion for helping businesses achieve their financial goals.
                 </p>
                 <p>
-                  Over the past 5+ years, we've helped businesses across various industries achieve their financial objectives. Our team of 45+ qualified professionals brings together decades of collective experience in audit, tax, financial advisory, and business consulting.
+                  Over the past 5+ years, we&apos;ve helped businesses across various industries achieve their financial objectives. Our team of 45+ qualified professionals brings together decades of collective experience in audit, tax, financial advisory, and business consulting.
                 </p>
                 <p>
-                  We believe that every business deserves access to world-class financial services. That's why we've developed flexible service packages tailored to startups, small businesses, and established enterprises alike.
+                  We believe that every business deserves access to world-class financial services. That&apos;s why we&apos;ve developed flexible service packages tailored to startups, small businesses, and established enterprises alike.
                 </p>
               </div>
             </div>
@@ -182,7 +182,7 @@ export default function AboutPage() {
               Ready to Work with Us?
             </h2>
             <p className="text-lg text-primary-foreground/90 max-w-2xl mx-auto mb-8">
-              Let's discuss how we can help your business achieve financial success.
+              Let&apos;s discuss how we can help your business achieve financial success.
             </p>
             <Link href="/contact">
               <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90">
