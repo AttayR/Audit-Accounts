@@ -34,6 +34,7 @@ const navLinks = [
     ],
   },
   { href: "/about", label: "About", icon: null },
+  { href: "/how-it-works", label: "How It Works", icon: null },
   { href: "/blog", label: "Blog", icon: null },
   { href: "/contact", label: "Contact", icon: null },
   { href: "/privacy", label: "Privacy", icon: null },

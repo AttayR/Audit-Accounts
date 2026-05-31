@@ -77,6 +77,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/how-it-works" className="text-sm text-white/72 transition-colors hover:text-white">
+                  How It Works
+                </Link>
+              </li>
+              <li>
                 <Link href="/blog" className="text-sm text-white/72 transition-colors hover:text-white">
                   Blog
                 </Link>
